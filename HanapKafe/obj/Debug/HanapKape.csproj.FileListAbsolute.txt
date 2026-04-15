@@ -1,0 +1,12 @@
+C:\Users\Vin\OneDrive\Desktop\HanapKafe\HanapKafe\HanapKafe\bin\Debug\HanapKafe.exe.config
+C:\Users\Vin\OneDrive\Desktop\HanapKafe\HanapKafe\HanapKafe\bin\Debug\HanapKafe.exe
+C:\Users\Vin\OneDrive\Desktop\HanapKafe\HanapKafe\HanapKafe\bin\Debug\HanapKafe.pdb
+C:\Users\Vin\OneDrive\Desktop\HanapKafe\HanapKafe\HanapKafe\obj\Debug\HanapKape.csproj.AssemblyReference.cache
+C:\Users\Vin\OneDrive\Desktop\HanapKafe\HanapKafe\HanapKafe\obj\Debug\HanapKafe.HanapKapeHome.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKafe\HanapKafe\HanapKafe\obj\Debug\HanapKafe.ManualRegistrationForm.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKafe\HanapKafe\HanapKafe\obj\Debug\HanapKafe.GoogleMapLinkRegistration.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKafe\HanapKafe\HanapKafe\obj\Debug\HanapKafe.Properties.Resources.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKafe\HanapKafe\HanapKafe\obj\Debug\HanapKape.csproj.GenerateResource.cache
+C:\Users\Vin\OneDrive\Desktop\HanapKafe\HanapKafe\HanapKafe\obj\Debug\HanapKape.csproj.CoreCompileInputs.cache
+C:\Users\Vin\OneDrive\Desktop\HanapKafe\HanapKafe\HanapKafe\obj\Debug\HanapKafe.exe
+C:\Users\Vin\OneDrive\Desktop\HanapKafe\HanapKafe\HanapKafe\obj\Debug\HanapKafe.pdb
