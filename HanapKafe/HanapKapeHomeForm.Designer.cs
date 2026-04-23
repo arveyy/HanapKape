@@ -42,9 +42,10 @@
             this.ExploreNBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ExploreNBtn.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold);
             this.ExploreNBtn.ForeColor = System.Drawing.Color.White;
-            this.ExploreNBtn.Location = new System.Drawing.Point(67, 379);
+            this.ExploreNBtn.Location = new System.Drawing.Point(50, 308);
+            this.ExploreNBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ExploreNBtn.Name = "ExploreNBtn";
-            this.ExploreNBtn.Size = new System.Drawing.Size(183, 56);
+            this.ExploreNBtn.Size = new System.Drawing.Size(137, 46);
             this.ExploreNBtn.TabIndex = 0;
             this.ExploreNBtn.Text = "📍Explore Nearby";
             this.ExploreNBtn.UseVisualStyleBackColor = false;
@@ -55,9 +56,10 @@
             this.Registerbtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Registerbtn.Font = new System.Drawing.Font("Times New Roman", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Registerbtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.Registerbtn.Location = new System.Drawing.Point(332, 379);
+            this.Registerbtn.Location = new System.Drawing.Point(249, 308);
+            this.Registerbtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Registerbtn.Name = "Registerbtn";
-            this.Registerbtn.Size = new System.Drawing.Size(189, 56);
+            this.Registerbtn.Size = new System.Drawing.Size(142, 46);
             this.Registerbtn.TabIndex = 1;
             this.Registerbtn.Text = "✍Register your Shop";
             this.Registerbtn.UseVisualStyleBackColor = false;
@@ -68,9 +70,10 @@
             this.GmailLink.ActiveLinkColor = System.Drawing.SystemColors.Control;
             this.GmailLink.AutoSize = true;
             this.GmailLink.LinkColor = System.Drawing.Color.Black;
-            this.GmailLink.Location = new System.Drawing.Point(236, 590);
+            this.GmailLink.Location = new System.Drawing.Point(177, 479);
+            this.GmailLink.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.GmailLink.Name = "GmailLink";
-            this.GmailLink.Size = new System.Drawing.Size(106, 16);
+            this.GmailLink.Size = new System.Drawing.Size(88, 13);
             this.GmailLink.TabIndex = 2;
             this.GmailLink.TabStop = true;
             this.GmailLink.Text = "✉︎Connect Gmail";
@@ -80,9 +83,10 @@
             this.Titlelabel.AutoSize = true;
             this.Titlelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F);
             this.Titlelabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.Titlelabel.Location = new System.Drawing.Point(167, 24);
+            this.Titlelabel.Location = new System.Drawing.Point(125, 20);
+            this.Titlelabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Titlelabel.Name = "Titlelabel";
-            this.Titlelabel.Size = new System.Drawing.Size(265, 228);
+            this.Titlelabel.Size = new System.Drawing.Size(216, 189);
             this.Titlelabel.TabIndex = 5;
             this.Titlelabel.Text = "Hanap\r\n☕︎Kape\r\n\r\n";
             // 
@@ -91,9 +95,10 @@
             this.WelcomeLabel.AutoSize = true;
             this.WelcomeLabel.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20F);
             this.WelcomeLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.WelcomeLabel.Location = new System.Drawing.Point(95, 277);
+            this.WelcomeLabel.Location = new System.Drawing.Point(71, 225);
+            this.WelcomeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.WelcomeLabel.Name = "WelcomeLabel";
-            this.WelcomeLabel.Size = new System.Drawing.Size(414, 39);
+            this.WelcomeLabel.Size = new System.Drawing.Size(329, 32);
             this.WelcomeLabel.TabIndex = 6;
             this.WelcomeLabel.Text = "Welcome to HanapKape";
             // 
@@ -102,25 +107,28 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 15F);
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.label1.Location = new System.Drawing.Point(144, 316);
+            this.label1.Location = new System.Drawing.Point(108, 257);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(317, 29);
+            this.label1.Size = new System.Drawing.Size(254, 23);
             this.label1.TabIndex = 7;
             this.label1.Text = "Discover coffee near you";
             // 
             // HanapKapeHome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(590, 615);
+            this.ClientSize = new System.Drawing.Size(442, 500);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.WelcomeLabel);
             this.Controls.Add(this.Titlelabel);
             this.Controls.Add(this.GmailLink);
             this.Controls.Add(this.Registerbtn);
             this.Controls.Add(this.ExploreNBtn);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "HanapKapeHome";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HanapKape";
             this.ResumeLayout(false);
             this.PerformLayout();

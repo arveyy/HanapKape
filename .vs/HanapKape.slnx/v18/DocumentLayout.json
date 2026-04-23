@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Vin\\OneDrive\\Desktop\\HanapKafe\\HanapKafe\\",
+  "WorkspaceRootPath": "C:\\Users\\FF629\\Desktop\\hnpkpe\\HanapKape\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|C:\\Users\\Vin\\OneDrive\\Desktop\\HanapKafe\\HanapKafe\\hanapkafe\\manual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\manual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|C:\\Users\\Vin\\OneDrive\\Desktop\\HanapKafe\\HanapKafe\\hanapkafe\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|C:\\Users\\FF629\\Desktop\\hnpkpe\\HanapKape\\hanapkafe\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|c:\\users\\vin\\onedrive\\desktop\\hanapkafe\\hanapkafe\\hanapkafe\\hanapkapehomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|c:\\users\\ff629\\desktop\\hnpkpe\\hanapkape\\hanapkafe\\manual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\manual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|C:\\Users\\FF629\\Desktop\\hnpkpe\\HanapKape\\hanapkafe\\hanapkapehomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\hanapkapehomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,15 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "HanapKapeHomeForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Vin\\OneDrive\\Desktop\\HanapKafe\\HanapKafe\\HanapKafe\\HanapKapeHomeForm.cs",
+              "DocumentMoniker": "C:\\Users\\FF629\\Desktop\\hnpkpe\\HanapKape\\HanapKafe\\HanapKapeHomeForm.cs",
               "RelativeDocumentMoniker": "HanapKafe\\HanapKapeHomeForm.cs",
-              "ToolTip": "C:\\Users\\Vin\\OneDrive\\Desktop\\HanapKafe\\HanapKafe\\HanapKafe\\HanapKapeHomeForm.cs [Design]",
+              "ToolTip": "C:\\Users\\FF629\\Desktop\\hnpkpe\\HanapKape\\HanapKafe\\HanapKapeHomeForm.cs [Design]",
               "RelativeToolTip": "HanapKafe\\HanapKapeHomeForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T21:36:36.378Z",
@@ -38,11 +38,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Manual.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Vin\\OneDrive\\Desktop\\HanapKafe\\HanapKafe\\HanapKafe\\Manual.cs",
+              "DocumentMoniker": "C:\\Users\\FF629\\Desktop\\hnpkpe\\HanapKape\\HanapKafe\\Manual.cs",
               "RelativeDocumentMoniker": "HanapKafe\\Manual.cs",
-              "ToolTip": "C:\\Users\\Vin\\OneDrive\\Desktop\\HanapKafe\\HanapKafe\\HanapKafe\\Manual.cs [Design]",
+              "ToolTip": "C:\\Users\\FF629\\Desktop\\hnpkpe\\HanapKape\\HanapKafe\\Manual.cs [Design]",
               "RelativeToolTip": "HanapKafe\\Manual.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T21:36:33.564Z",
@@ -50,11 +50,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Vin\\OneDrive\\Desktop\\HanapKafe\\HanapKafe\\HanapKafe\\RegisterForm.cs",
+              "DocumentMoniker": "C:\\Users\\FF629\\Desktop\\hnpkpe\\HanapKape\\HanapKafe\\RegisterForm.cs",
               "RelativeDocumentMoniker": "HanapKafe\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\Vin\\OneDrive\\Desktop\\HanapKafe\\HanapKafe\\HanapKafe\\RegisterForm.cs [Design]",
+              "ToolTip": "C:\\Users\\FF629\\Desktop\\hnpkpe\\HanapKape\\HanapKafe\\RegisterForm.cs [Design]",
               "RelativeToolTip": "HanapKafe\\RegisterForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-15T17:46:24.692Z",
