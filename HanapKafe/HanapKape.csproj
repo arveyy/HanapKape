@@ -33,10 +33,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GMap.NET.Core, Version=1.7.5.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.WindowsForms.1.7.5\lib\net40\GMap.NET.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="GMap.NET.WindowsForms, Version=1.7.5.0, Culture=neutral, PublicKeyToken=b85b9027b614afef, processorArchitecture=MSIL">
+      <HintPath>..\packages\GMap.NET.WindowsForms.1.7.5\lib\net40\GMap.NET.WindowsForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System">
       <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
     </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -54,6 +66,18 @@
     <Compile Include="HanapKapeHomeForm.Designer.cs">
       <DependentUpon>HanapKapeHomeForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="NearbyForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NearbyForm.Designer.cs">
+      <DependentUpon>NearbyForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PriceCheckerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PriceCheckerForm.Designer.cs">
+      <DependentUpon>PriceCheckerForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="RegisterForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,11 +92,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UseApproximateLocationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UseApproximateLocationForm.Designer.cs">
+      <DependentUpon>UseApproximateLocationForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="HanapKapeHomeForm.resx">
       <DependentUpon>HanapKapeHomeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manual.resx">
       <DependentUpon>Manual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NearbyForm.resx">
+      <DependentUpon>NearbyForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PriceCheckerForm.resx">
+      <DependentUpon>PriceCheckerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
@@ -86,6 +122,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UseApproximateLocationForm.resx">
+      <DependentUpon>UseApproximateLocationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

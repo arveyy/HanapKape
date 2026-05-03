@@ -35,5 +35,10 @@ namespace HanapKafe
             this.Hide();
             ManualRegistration.Show();
         }
+
+        private void HowtoGetLinkLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

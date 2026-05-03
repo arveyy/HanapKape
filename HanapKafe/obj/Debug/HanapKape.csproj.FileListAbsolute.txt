@@ -22,3 +22,17 @@ C:\Users\FF629\Desktop\hnpkpe\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.Gen
 C:\Users\FF629\Desktop\hnpkpe\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.CoreCompileInputs.cache
 C:\Users\FF629\Desktop\hnpkpe\HanapKape\HanapKafe\obj\Debug\HanapKafe.exe
 C:\Users\FF629\Desktop\hnpkpe\HanapKape\HanapKafe\obj\Debug\HanapKafe.pdb
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\bin\Debug\HanapKafe.exe.config
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\bin\Debug\HanapKafe.exe
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\bin\Debug\HanapKafe.pdb
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.AssemblyReference.cache
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\obj\Debug\HanapKafe.HanapKapeHome.resources
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\obj\Debug\HanapKafe.ManualRegistrationForm.resources
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\obj\Debug\HanapKafe.GoogleMapLinkRegistration.resources
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\obj\Debug\HanapKafe.Properties.Resources.resources
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.GenerateResource.cache
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.CoreCompileInputs.cache
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\obj\Debug\HanapKafe.exe
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\obj\Debug\HanapKafe.pdb
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\bin\Debug\Guna.UI2.dll
+C:\Users\PC-2\Desktop\HanapKape\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.Up2Date

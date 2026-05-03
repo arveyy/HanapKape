@@ -23,5 +23,6 @@ namespace HanapKafe
             this.Hide();
             RegisterForm.Show();
         }
+
     }
 }

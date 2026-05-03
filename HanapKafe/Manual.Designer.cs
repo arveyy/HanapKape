@@ -28,67 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManualRegistrationForm));
             this.ShopLabel = new System.Windows.Forms.Label();
             this.AdressLabel = new System.Windows.Forms.Label();
             this.OperatingLabel = new System.Windows.Forms.Label();
             this.NotesLabel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.HomeLabelLink = new System.Windows.Forms.LinkLabel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.GoogleMapsLinkButton = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.ShopNameTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.AddressLocationTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.UseMyLocationButton = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.OperatingHoursOptionalTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.NotesOptionalTextBox = new Guna.UI2.WinForms.Guna2TextBox();
+            this.SubmitSuggestionButton = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.GoogleMapLinkButton = new Guna.UI2.WinForms.Guna2GradientButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // textBox2
-            // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.textBox2.Location = new System.Drawing.Point(104, 269);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(303, 33);
-            this.textBox2.TabIndex = 1;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.textBox4.Location = new System.Drawing.Point(105, 343);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(303, 76);
-            this.textBox4.TabIndex = 3;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.textBox3.Location = new System.Drawing.Point(104, 159);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(303, 33);
-            this.textBox3.TabIndex = 4;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.textBox1.Location = new System.Drawing.Point(104, 101);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(303, 33);
-            this.textBox1.TabIndex = 5;
             // 
             // ShopLabel
             // 
             this.ShopLabel.AutoSize = true;
             this.ShopLabel.Enabled = false;
             this.ShopLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.ShopLabel.Location = new System.Drawing.Point(103, 84);
+            this.ShopLabel.Location = new System.Drawing.Point(583, 116);
             this.ShopLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.ShopLabel.Name = "ShopLabel";
             this.ShopLabel.Size = new System.Drawing.Size(70, 13);
@@ -100,7 +64,7 @@
             this.AdressLabel.AutoSize = true;
             this.AdressLabel.Enabled = false;
             this.AdressLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.AdressLabel.Location = new System.Drawing.Point(103, 143);
+            this.AdressLabel.Location = new System.Drawing.Point(583, 191);
             this.AdressLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.AdressLabel.Name = "AdressLabel";
             this.AdressLabel.Size = new System.Drawing.Size(104, 13);
@@ -112,7 +76,7 @@
             this.OperatingLabel.AutoSize = true;
             this.OperatingLabel.Enabled = false;
             this.OperatingLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.OperatingLabel.Location = new System.Drawing.Point(103, 253);
+            this.OperatingLabel.Location = new System.Drawing.Point(583, 315);
             this.OperatingLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.OperatingLabel.Name = "OperatingLabel";
             this.OperatingLabel.Size = new System.Drawing.Size(145, 13);
@@ -124,7 +88,7 @@
             this.NotesLabel.AutoSize = true;
             this.NotesLabel.Enabled = false;
             this.NotesLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F);
-            this.NotesLabel.Location = new System.Drawing.Point(103, 327);
+            this.NotesLabel.Location = new System.Drawing.Point(583, 382);
             this.NotesLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.NotesLabel.Name = "NotesLabel";
             this.NotesLabel.Size = new System.Drawing.Size(81, 13);
@@ -134,115 +98,222 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20F);
-            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.label5.Location = new System.Drawing.Point(99, 17);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(640, 63);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(388, 32);
+            this.label5.Size = new System.Drawing.Size(217, 20);
             this.label5.TabIndex = 10;
-            this.label5.Text = "✍ Manual Shop Registration";
+            this.label5.Text = "Manual Shop Registration";
             // 
-            // HomeLabelLink
+            // pictureBox2
             // 
-            this.HomeLabelLink.ActiveLinkColor = System.Drawing.Color.Transparent;
-            this.HomeLabelLink.AutoSize = true;
-            this.HomeLabelLink.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.HomeLabelLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HomeLabelLink.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.HomeLabelLink.LinkColor = System.Drawing.Color.Black;
-            this.HomeLabelLink.Location = new System.Drawing.Point(6, 7);
-            this.HomeLabelLink.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.HomeLabelLink.Name = "HomeLabelLink";
-            this.HomeLabelLink.Size = new System.Drawing.Size(82, 52);
-            this.HomeLabelLink.TabIndex = 13;
-            this.HomeLabelLink.TabStop = true;
-            this.HomeLabelLink.Text = "Hanap\r\n☕︎Kape\r\n";
-            this.HomeLabelLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.HomeLabelLink_LinkClicked);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(13, 12);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(124, 81);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 21;
+            this.pictureBox2.TabStop = false;
             // 
-            // button1
+            // ShopNameTextBox
             // 
-            this.button1.AutoSize = true;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 10F, System.Drawing.FontStyle.Bold);
-            this.button1.Location = new System.Drawing.Point(104, 197);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(137, 29);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "📍Use My Location";
-            this.button1.UseVisualStyleBackColor = true;
+            this.ShopNameTextBox.BorderColor = System.Drawing.Color.Black;
+            this.ShopNameTextBox.BorderRadius = 15;
+            this.ShopNameTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ShopNameTextBox.DefaultText = "";
+            this.ShopNameTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ShopNameTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ShopNameTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ShopNameTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ShopNameTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ShopNameTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ShopNameTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ShopNameTextBox.Location = new System.Drawing.Point(586, 132);
+            this.ShopNameTextBox.Name = "ShopNameTextBox";
+            this.ShopNameTextBox.PlaceholderText = "";
+            this.ShopNameTextBox.SelectedText = "";
+            this.ShopNameTextBox.Size = new System.Drawing.Size(304, 43);
+            this.ShopNameTextBox.TabIndex = 22;
             // 
-            // GoogleMapsLinkButton
+            // AddressLocationTextBox
             // 
-            this.GoogleMapsLinkButton.BackColor = System.Drawing.SystemColors.Info;
-            this.GoogleMapsLinkButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.GoogleMapsLinkButton.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.GoogleMapsLinkButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.GoogleMapsLinkButton.Location = new System.Drawing.Point(383, 514);
-            this.GoogleMapsLinkButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.GoogleMapsLinkButton.Name = "GoogleMapsLinkButton";
-            this.GoogleMapsLinkButton.Size = new System.Drawing.Size(114, 35);
-            this.GoogleMapsLinkButton.TabIndex = 15;
-            this.GoogleMapsLinkButton.Text = "🔗Google Map Link";
-            this.GoogleMapsLinkButton.UseVisualStyleBackColor = false;
-            this.GoogleMapsLinkButton.Click += new System.EventHandler(this.GoogleMapsLinkButton_Click);
+            this.AddressLocationTextBox.BorderColor = System.Drawing.Color.Black;
+            this.AddressLocationTextBox.BorderRadius = 15;
+            this.AddressLocationTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.AddressLocationTextBox.DefaultText = "";
+            this.AddressLocationTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.AddressLocationTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.AddressLocationTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.AddressLocationTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.AddressLocationTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.AddressLocationTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.AddressLocationTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.AddressLocationTextBox.Location = new System.Drawing.Point(585, 207);
+            this.AddressLocationTextBox.Name = "AddressLocationTextBox";
+            this.AddressLocationTextBox.PlaceholderText = "";
+            this.AddressLocationTextBox.SelectedText = "";
+            this.AddressLocationTextBox.Size = new System.Drawing.Size(304, 43);
+            this.AddressLocationTextBox.TabIndex = 23;
             // 
-            // button2
+            // UseMyLocationButton
             // 
-            this.button2.AutoSize = true;
-            this.button2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold);
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(104, 448);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(303, 50);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "➤ Submit Suggestion";
-            this.button2.UseVisualStyleBackColor = false;
+            this.UseMyLocationButton.BorderRadius = 15;
+            this.UseMyLocationButton.BorderThickness = 1;
+            this.UseMyLocationButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.UseMyLocationButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.UseMyLocationButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.UseMyLocationButton.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.UseMyLocationButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.UseMyLocationButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(255)))), ((int)(((byte)(196)))));
+            this.UseMyLocationButton.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(64)))), ((int)(((byte)(14)))));
+            this.UseMyLocationButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UseMyLocationButton.ForeColor = System.Drawing.Color.Black;
+            this.UseMyLocationButton.Location = new System.Drawing.Point(585, 261);
+            this.UseMyLocationButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.UseMyLocationButton.Name = "UseMyLocationButton";
+            this.UseMyLocationButton.Size = new System.Drawing.Size(114, 42);
+            this.UseMyLocationButton.TabIndex = 24;
+            this.UseMyLocationButton.Text = "Use My Location";
+            // 
+            // OperatingHoursOptionalTextBox
+            // 
+            this.OperatingHoursOptionalTextBox.BorderColor = System.Drawing.Color.Black;
+            this.OperatingHoursOptionalTextBox.BorderRadius = 15;
+            this.OperatingHoursOptionalTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.OperatingHoursOptionalTextBox.DefaultText = "";
+            this.OperatingHoursOptionalTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.OperatingHoursOptionalTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.OperatingHoursOptionalTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.OperatingHoursOptionalTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.OperatingHoursOptionalTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.OperatingHoursOptionalTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.OperatingHoursOptionalTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.OperatingHoursOptionalTextBox.Location = new System.Drawing.Point(585, 331);
+            this.OperatingHoursOptionalTextBox.Name = "OperatingHoursOptionalTextBox";
+            this.OperatingHoursOptionalTextBox.PlaceholderText = "";
+            this.OperatingHoursOptionalTextBox.SelectedText = "";
+            this.OperatingHoursOptionalTextBox.Size = new System.Drawing.Size(304, 43);
+            this.OperatingHoursOptionalTextBox.TabIndex = 25;
+            // 
+            // NotesOptionalTextBox
+            // 
+            this.NotesOptionalTextBox.BorderColor = System.Drawing.Color.Black;
+            this.NotesOptionalTextBox.BorderRadius = 15;
+            this.NotesOptionalTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.NotesOptionalTextBox.DefaultText = "";
+            this.NotesOptionalTextBox.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.NotesOptionalTextBox.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.NotesOptionalTextBox.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.NotesOptionalTextBox.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.NotesOptionalTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.NotesOptionalTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.NotesOptionalTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.NotesOptionalTextBox.Location = new System.Drawing.Point(586, 398);
+            this.NotesOptionalTextBox.Name = "NotesOptionalTextBox";
+            this.NotesOptionalTextBox.PlaceholderText = "";
+            this.NotesOptionalTextBox.SelectedText = "";
+            this.NotesOptionalTextBox.Size = new System.Drawing.Size(304, 92);
+            this.NotesOptionalTextBox.TabIndex = 26;
+            // 
+            // SubmitSuggestionButton
+            // 
+            this.SubmitSuggestionButton.BorderRadius = 15;
+            this.SubmitSuggestionButton.BorderThickness = 1;
+            this.SubmitSuggestionButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.SubmitSuggestionButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.SubmitSuggestionButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.SubmitSuggestionButton.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.SubmitSuggestionButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.SubmitSuggestionButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(255)))), ((int)(((byte)(196)))));
+            this.SubmitSuggestionButton.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(64)))), ((int)(((byte)(14)))));
+            this.SubmitSuggestionButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SubmitSuggestionButton.ForeColor = System.Drawing.Color.Black;
+            this.SubmitSuggestionButton.Location = new System.Drawing.Point(586, 505);
+            this.SubmitSuggestionButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.SubmitSuggestionButton.Name = "SubmitSuggestionButton";
+            this.SubmitSuggestionButton.Size = new System.Drawing.Size(304, 55);
+            this.SubmitSuggestionButton.TabIndex = 27;
+            this.SubmitSuggestionButton.Text = "Submit Suggestion";
+            // 
+            // GoogleMapLinkButton
+            // 
+            this.GoogleMapLinkButton.BorderRadius = 15;
+            this.GoogleMapLinkButton.BorderThickness = 1;
+            this.GoogleMapLinkButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.GoogleMapLinkButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.GoogleMapLinkButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.GoogleMapLinkButton.DisabledState.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.GoogleMapLinkButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.GoogleMapLinkButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(255)))), ((int)(((byte)(196)))));
+            this.GoogleMapLinkButton.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(64)))), ((int)(((byte)(14)))));
+            this.GoogleMapLinkButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.GoogleMapLinkButton.ForeColor = System.Drawing.Color.Black;
+            this.GoogleMapLinkButton.Location = new System.Drawing.Point(851, 579);
+            this.GoogleMapLinkButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.GoogleMapLinkButton.Name = "GoogleMapLinkButton";
+            this.GoogleMapLinkButton.Size = new System.Drawing.Size(114, 42);
+            this.GoogleMapLinkButton.TabIndex = 28;
+            this.GoogleMapLinkButton.Text = "Google Map Link";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(589, 53);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(46, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 29;
+            this.pictureBox1.TabStop = false;
             // 
             // ManualRegistrationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Info;
-            this.ClientSize = new System.Drawing.Size(506, 558);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.GoogleMapsLinkButton);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.HomeLabelLink);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.ClientSize = new System.Drawing.Size(1511, 648);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.GoogleMapLinkButton);
+            this.Controls.Add(this.SubmitSuggestionButton);
+            this.Controls.Add(this.NotesOptionalTextBox);
+            this.Controls.Add(this.OperatingHoursOptionalTextBox);
+            this.Controls.Add(this.UseMyLocationButton);
+            this.Controls.Add(this.AddressLocationTextBox);
+            this.Controls.Add(this.ShopNameTextBox);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.NotesLabel);
             this.Controls.Add(this.OperatingLabel);
             this.Controls.Add(this.AdressLabel);
             this.Controls.Add(this.ShopLabel);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ManualRegistrationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Manual";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label ShopLabel;
         private System.Windows.Forms.Label AdressLabel;
         private System.Windows.Forms.Label OperatingLabel;
         private System.Windows.Forms.Label NotesLabel;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.LinkLabel HomeLabelLink;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button GoogleMapsLinkButton;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private Guna.UI2.WinForms.Guna2TextBox ShopNameTextBox;
+        private Guna.UI2.WinForms.Guna2TextBox AddressLocationTextBox;
+        private Guna.UI2.WinForms.Guna2GradientButton UseMyLocationButton;
+        private Guna.UI2.WinForms.Guna2TextBox OperatingHoursOptionalTextBox;
+        private Guna.UI2.WinForms.Guna2TextBox NotesOptionalTextBox;
+        private Guna.UI2.WinForms.Guna2GradientButton SubmitSuggestionButton;
+        private Guna.UI2.WinForms.Guna2GradientButton GoogleMapLinkButton;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
