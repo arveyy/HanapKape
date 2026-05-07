@@ -35,13 +35,13 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.RegisterManuallyButton = new Guna.UI2.WinForms.Guna2GradientButton();
             this.GoogleMapInstructionLabel = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.HomeLabelLink = new System.Windows.Forms.PictureBox();
             this.RegisterFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.PriceCheckerFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.NearbyFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.SignOutButton = new Guna.UI2.WinForms.Guna2ImageButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HomeLabelLink)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -49,10 +49,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(552, 193);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(736, 238);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(294, 20);
+            this.label2.Size = new System.Drawing.Size(352, 25);
             this.label2.TabIndex = 14;
             this.label2.Text = "Google Map Link Shop Registration";
             // 
@@ -69,11 +68,12 @@
             this.GoogleLinkTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.GoogleLinkTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.GoogleLinkTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.GoogleLinkTextBox.Location = new System.Drawing.Point(483, 247);
+            this.GoogleLinkTextBox.Location = new System.Drawing.Point(644, 304);
+            this.GoogleLinkTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.GoogleLinkTextBox.Name = "GoogleLinkTextBox";
             this.GoogleLinkTextBox.PlaceholderText = "";
             this.GoogleLinkTextBox.SelectedText = "";
-            this.GoogleLinkTextBox.Size = new System.Drawing.Size(542, 55);
+            this.GoogleLinkTextBox.Size = new System.Drawing.Size(723, 68);
             this.GoogleLinkTextBox.TabIndex = 15;
             // 
             // GenerateButton
@@ -89,19 +89,20 @@
             this.GenerateButton.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(64)))), ((int)(((byte)(14)))));
             this.GenerateButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GenerateButton.ForeColor = System.Drawing.Color.Black;
-            this.GenerateButton.Location = new System.Drawing.Point(1032, 247);
-            this.GenerateButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.GenerateButton.Location = new System.Drawing.Point(1376, 304);
+            this.GenerateButton.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.GenerateButton.Name = "GenerateButton";
-            this.GenerateButton.Size = new System.Drawing.Size(160, 55);
+            this.GenerateButton.Size = new System.Drawing.Size(213, 68);
             this.GenerateButton.TabIndex = 16;
             this.GenerateButton.Text = "Generate";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(484, 170);
+            this.pictureBox1.Location = new System.Drawing.Point(645, 209);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(63, 54);
+            this.pictureBox1.Size = new System.Drawing.Size(84, 66);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
@@ -117,39 +118,40 @@
             this.RegisterManuallyButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.RegisterManuallyButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(255)))), ((int)(((byte)(196)))));
             this.RegisterManuallyButton.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(64)))), ((int)(((byte)(14)))));
-            this.RegisterManuallyButton.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RegisterManuallyButton.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Bold);
             this.RegisterManuallyButton.ForeColor = System.Drawing.Color.Black;
-            this.RegisterManuallyButton.Location = new System.Drawing.Point(859, 485);
-            this.RegisterManuallyButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.RegisterManuallyButton.Location = new System.Drawing.Point(1461, 380);
+            this.RegisterManuallyButton.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.RegisterManuallyButton.Name = "RegisterManuallyButton";
-            this.RegisterManuallyButton.Size = new System.Drawing.Size(129, 49);
+            this.RegisterManuallyButton.Size = new System.Drawing.Size(128, 37);
             this.RegisterManuallyButton.TabIndex = 18;
             this.RegisterManuallyButton.Text = "✏ Register Manually";
+            this.RegisterManuallyButton.Click += new System.EventHandler(this.RegisterManuallyButton_Click);
             // 
             // GoogleMapInstructionLabel
             // 
             this.GoogleMapInstructionLabel.AutoSize = true;
             this.GoogleMapInstructionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.GoogleMapInstructionLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(60)))), ((int)(((byte)(60)))));
-            this.GoogleMapInstructionLabel.Location = new System.Drawing.Point(481, 326);
-            this.GoogleMapInstructionLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.GoogleMapInstructionLabel.Location = new System.Drawing.Point(641, 401);
             this.GoogleMapInstructionLabel.Name = "GoogleMapInstructionLabel";
-            this.GoogleMapInstructionLabel.Size = new System.Drawing.Size(440, 125);
+            this.GoogleMapInstructionLabel.Size = new System.Drawing.Size(566, 145);
             this.GoogleMapInstructionLabel.TabIndex = 19;
             this.GoogleMapInstructionLabel.Text = "How to get the link:\r\n  1. Open Google Maps on your phone or browser\r\n  2. Search" +
     " for the coffee shop\r\n  3. Tap the Share button\r\n  4. Copy the link and paste it" +
     " above\r\n";
             // 
-            // pictureBox2
+            // HomeLabelLink
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(13, 12);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(124, 81);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 22;
-            this.pictureBox2.TabStop = false;
+            this.HomeLabelLink.Image = ((System.Drawing.Image)(resources.GetObject("HomeLabelLink.Image")));
+            this.HomeLabelLink.Location = new System.Drawing.Point(17, 15);
+            this.HomeLabelLink.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.HomeLabelLink.Name = "HomeLabelLink";
+            this.HomeLabelLink.Size = new System.Drawing.Size(165, 100);
+            this.HomeLabelLink.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.HomeLabelLink.TabIndex = 22;
+            this.HomeLabelLink.TabStop = false;
+            this.HomeLabelLink.Click += new System.EventHandler(this.HomeLabelLink_Click);
             // 
             // RegisterFormButton
             // 
@@ -159,11 +161,13 @@
             this.RegisterFormButton.ImageOffset = new System.Drawing.Point(0, 0);
             this.RegisterFormButton.ImageRotate = 0F;
             this.RegisterFormButton.ImageSize = new System.Drawing.Size(64, 40);
-            this.RegisterFormButton.Location = new System.Drawing.Point(1217, 12);
+            this.RegisterFormButton.Location = new System.Drawing.Point(1476, 15);
+            this.RegisterFormButton.Margin = new System.Windows.Forms.Padding(4);
             this.RegisterFormButton.Name = "RegisterFormButton";
             this.RegisterFormButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.RegisterFormButton.Size = new System.Drawing.Size(66, 52);
+            this.RegisterFormButton.Size = new System.Drawing.Size(88, 64);
             this.RegisterFormButton.TabIndex = 23;
+            this.RegisterFormButton.Click += new System.EventHandler(this.RegisterFormButton_Click);
             // 
             // PriceCheckerFormButton
             // 
@@ -173,11 +177,13 @@
             this.PriceCheckerFormButton.ImageOffset = new System.Drawing.Point(0, 0);
             this.PriceCheckerFormButton.ImageRotate = 0F;
             this.PriceCheckerFormButton.ImageSize = new System.Drawing.Size(64, 40);
-            this.PriceCheckerFormButton.Location = new System.Drawing.Point(1289, 12);
+            this.PriceCheckerFormButton.Location = new System.Drawing.Point(1572, 15);
+            this.PriceCheckerFormButton.Margin = new System.Windows.Forms.Padding(4);
             this.PriceCheckerFormButton.Name = "PriceCheckerFormButton";
             this.PriceCheckerFormButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.PriceCheckerFormButton.Size = new System.Drawing.Size(66, 52);
+            this.PriceCheckerFormButton.Size = new System.Drawing.Size(88, 64);
             this.PriceCheckerFormButton.TabIndex = 24;
+            this.PriceCheckerFormButton.Click += new System.EventHandler(this.PriceCheckerFormButton_Click);
             // 
             // NearbyFormButton
             // 
@@ -187,11 +193,13 @@
             this.NearbyFormButton.ImageOffset = new System.Drawing.Point(0, 0);
             this.NearbyFormButton.ImageRotate = 0F;
             this.NearbyFormButton.ImageSize = new System.Drawing.Size(64, 40);
-            this.NearbyFormButton.Location = new System.Drawing.Point(1361, 12);
+            this.NearbyFormButton.Location = new System.Drawing.Point(1668, 15);
+            this.NearbyFormButton.Margin = new System.Windows.Forms.Padding(4);
             this.NearbyFormButton.Name = "NearbyFormButton";
             this.NearbyFormButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.NearbyFormButton.Size = new System.Drawing.Size(66, 52);
+            this.NearbyFormButton.Size = new System.Drawing.Size(88, 64);
             this.NearbyFormButton.TabIndex = 25;
+            this.NearbyFormButton.Click += new System.EventHandler(this.NearbyFormButton_Click);
             // 
             // SignOutButton
             // 
@@ -201,23 +209,24 @@
             this.SignOutButton.ImageOffset = new System.Drawing.Point(0, 0);
             this.SignOutButton.ImageRotate = 0F;
             this.SignOutButton.ImageSize = new System.Drawing.Size(64, 40);
-            this.SignOutButton.Location = new System.Drawing.Point(1433, 12);
+            this.SignOutButton.Location = new System.Drawing.Point(1911, 15);
+            this.SignOutButton.Margin = new System.Windows.Forms.Padding(4);
             this.SignOutButton.Name = "SignOutButton";
             this.SignOutButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.SignOutButton.Size = new System.Drawing.Size(66, 52);
+            this.SignOutButton.Size = new System.Drawing.Size(88, 64);
             this.SignOutButton.TabIndex = 26;
             // 
             // GoogleMapLinkRegistration
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1511, 648);
+            this.ClientSize = new System.Drawing.Size(1732, 798);
             this.Controls.Add(this.SignOutButton);
             this.Controls.Add(this.NearbyFormButton);
             this.Controls.Add(this.PriceCheckerFormButton);
             this.Controls.Add(this.RegisterFormButton);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.HomeLabelLink);
             this.Controls.Add(this.GoogleMapInstructionLabel);
             this.Controls.Add(this.RegisterManuallyButton);
             this.Controls.Add(this.pictureBox1);
@@ -225,13 +234,13 @@
             this.Controls.Add(this.GoogleLinkTextBox);
             this.Controls.Add(this.label2);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "GoogleMapLinkRegistration";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Register";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HomeLabelLink)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,7 +253,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private Guna.UI2.WinForms.Guna2GradientButton RegisterManuallyButton;
         private System.Windows.Forms.Label GoogleMapInstructionLabel;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox HomeLabelLink;
         private Guna.UI2.WinForms.Guna2ImageButton RegisterFormButton;
         private Guna.UI2.WinForms.Guna2ImageButton PriceCheckerFormButton;
         private Guna.UI2.WinForms.Guna2ImageButton NearbyFormButton;

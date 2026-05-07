@@ -16,5 +16,33 @@ namespace HanapKafe
         {
             InitializeComponent();
         }
+
+        private void RegisterFormButton_Click(object sender, EventArgs e)
+        {
+            GoogleMapLinkRegistration register = new GoogleMapLinkRegistration();
+            this.Hide();
+            register.Show();
+        }
+
+        private void PriceCheckerFormButton_Click(object sender, EventArgs e)
+        {
+            PriceCheckerForm priceCheckherbtn = new PriceCheckerForm();
+            this.Hide();
+            priceCheckherbtn.Show();
+        }
+
+        private void NearbyFormButton_Click(object sender, EventArgs e)
+        {
+            NearbyForm nearbyBtn = new NearbyForm();
+            this.Hide();
+            nearbyBtn.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            HanapKapeHome home = new HanapKapeHome();
+            this.Hide();
+            home.Show();
+        }
     }
 }

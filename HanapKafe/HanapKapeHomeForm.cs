@@ -17,12 +17,18 @@ namespace HanapKafe
             InitializeComponent();
         }
 
-        private void Registerbtn_Click(object sender, EventArgs e)
+        private void RegisterYourShopButton_Click(object sender, EventArgs e)
         {
             GoogleMapLinkRegistration RegisterForm = new GoogleMapLinkRegistration();
             this.Hide();
             RegisterForm.Show();
         }
 
+        private void ExploreNearbyButton_Click(object sender, EventArgs e)
+        {
+            NearbyForm nearbyForm = new NearbyForm();
+            this.Hide();
+            nearbyForm.Show();
+        }
     }
 }

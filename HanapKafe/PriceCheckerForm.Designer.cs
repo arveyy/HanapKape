@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PriceCheckerForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.SignOutButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.NearbyFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.PriceCheckerFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -52,10 +52,11 @@
             this.SignOutButton.ImageOffset = new System.Drawing.Point(0, 0);
             this.SignOutButton.ImageRotate = 0F;
             this.SignOutButton.ImageSize = new System.Drawing.Size(64, 40);
-            this.SignOutButton.Location = new System.Drawing.Point(1433, 12);
+            this.SignOutButton.Location = new System.Drawing.Point(1911, 15);
+            this.SignOutButton.Margin = new System.Windows.Forms.Padding(4);
             this.SignOutButton.Name = "SignOutButton";
             this.SignOutButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.SignOutButton.Size = new System.Drawing.Size(66, 52);
+            this.SignOutButton.Size = new System.Drawing.Size(88, 64);
             this.SignOutButton.TabIndex = 30;
             // 
             // NearbyFormButton
@@ -66,11 +67,13 @@
             this.NearbyFormButton.ImageOffset = new System.Drawing.Point(0, 0);
             this.NearbyFormButton.ImageRotate = 0F;
             this.NearbyFormButton.ImageSize = new System.Drawing.Size(64, 40);
-            this.NearbyFormButton.Location = new System.Drawing.Point(1361, 12);
+            this.NearbyFormButton.Location = new System.Drawing.Point(1815, 15);
+            this.NearbyFormButton.Margin = new System.Windows.Forms.Padding(4);
             this.NearbyFormButton.Name = "NearbyFormButton";
             this.NearbyFormButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.NearbyFormButton.Size = new System.Drawing.Size(66, 52);
+            this.NearbyFormButton.Size = new System.Drawing.Size(88, 64);
             this.NearbyFormButton.TabIndex = 29;
+            this.NearbyFormButton.Click += new System.EventHandler(this.NearbyFormButton_Click);
             // 
             // PriceCheckerFormButton
             // 
@@ -80,11 +83,13 @@
             this.PriceCheckerFormButton.ImageOffset = new System.Drawing.Point(0, 0);
             this.PriceCheckerFormButton.ImageRotate = 0F;
             this.PriceCheckerFormButton.ImageSize = new System.Drawing.Size(64, 40);
-            this.PriceCheckerFormButton.Location = new System.Drawing.Point(1289, 12);
+            this.PriceCheckerFormButton.Location = new System.Drawing.Point(1719, 15);
+            this.PriceCheckerFormButton.Margin = new System.Windows.Forms.Padding(4);
             this.PriceCheckerFormButton.Name = "PriceCheckerFormButton";
             this.PriceCheckerFormButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.PriceCheckerFormButton.Size = new System.Drawing.Size(66, 52);
+            this.PriceCheckerFormButton.Size = new System.Drawing.Size(88, 64);
             this.PriceCheckerFormButton.TabIndex = 28;
+            this.PriceCheckerFormButton.Click += new System.EventHandler(this.PriceCheckerFormButton_Click);
             // 
             // RegisterFormButton
             // 
@@ -94,22 +99,25 @@
             this.RegisterFormButton.ImageOffset = new System.Drawing.Point(0, 0);
             this.RegisterFormButton.ImageRotate = 0F;
             this.RegisterFormButton.ImageSize = new System.Drawing.Size(64, 40);
-            this.RegisterFormButton.Location = new System.Drawing.Point(1217, 12);
+            this.RegisterFormButton.Location = new System.Drawing.Point(1623, 15);
+            this.RegisterFormButton.Margin = new System.Windows.Forms.Padding(4);
             this.RegisterFormButton.Name = "RegisterFormButton";
             this.RegisterFormButton.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.RegisterFormButton.Size = new System.Drawing.Size(66, 52);
+            this.RegisterFormButton.Size = new System.Drawing.Size(88, 64);
             this.RegisterFormButton.TabIndex = 27;
+            this.RegisterFormButton.Click += new System.EventHandler(this.RegisterFormButton_Click);
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(13, 12);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.pictureBox2.Location = new System.Drawing.Point(17, 15);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(124, 81);
+            this.pictureBox2.Size = new System.Drawing.Size(165, 100);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 31;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // SearchCoffeeTextBox
             // 
@@ -124,11 +132,12 @@
             this.SearchCoffeeTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.SearchCoffeeTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.SearchCoffeeTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.SearchCoffeeTextBox.Location = new System.Drawing.Point(457, 144);
+            this.SearchCoffeeTextBox.Location = new System.Drawing.Point(609, 177);
+            this.SearchCoffeeTextBox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.SearchCoffeeTextBox.Name = "SearchCoffeeTextBox";
             this.SearchCoffeeTextBox.PlaceholderText = "";
             this.SearchCoffeeTextBox.SelectedText = "";
-            this.SearchCoffeeTextBox.Size = new System.Drawing.Size(542, 55);
+            this.SearchCoffeeTextBox.Size = new System.Drawing.Size(723, 68);
             this.SearchCoffeeTextBox.TabIndex = 32;
             // 
             // AddCoffeeButton
@@ -142,39 +151,43 @@
             this.AddCoffeeButton.FillColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(64)))), ((int)(((byte)(14)))));
             this.AddCoffeeButton.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddCoffeeButton.ForeColor = System.Drawing.Color.Black;
-            this.AddCoffeeButton.Location = new System.Drawing.Point(1005, 144);
+            this.AddCoffeeButton.Location = new System.Drawing.Point(1340, 177);
+            this.AddCoffeeButton.Margin = new System.Windows.Forms.Padding(4);
             this.AddCoffeeButton.Name = "AddCoffeeButton";
             this.AddCoffeeButton.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.AddCoffeeButton.Size = new System.Drawing.Size(55, 55);
+            this.AddCoffeeButton.Size = new System.Drawing.Size(73, 68);
             this.AddCoffeeButton.TabIndex = 33;
             this.AddCoffeeButton.Text = "+";
             // 
             // DataGridViewCoffeeDisplay
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.DataGridViewCoffeeDisplay.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DataGridViewCoffeeDisplay.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.DataGridViewCoffeeDisplay.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DataGridViewCoffeeDisplay.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
+            this.DataGridViewCoffeeDisplay.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DataGridViewCoffeeDisplay.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            this.DataGridViewCoffeeDisplay.ColumnHeadersHeight = 4;
+            this.DataGridViewCoffeeDisplay.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DataGridViewCoffeeDisplay.DefaultCellStyle = dataGridViewCellStyle12;
             this.DataGridViewCoffeeDisplay.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.DataGridViewCoffeeDisplay.Location = new System.Drawing.Point(457, 224);
+            this.DataGridViewCoffeeDisplay.Location = new System.Drawing.Point(609, 276);
+            this.DataGridViewCoffeeDisplay.Margin = new System.Windows.Forms.Padding(4);
             this.DataGridViewCoffeeDisplay.Name = "DataGridViewCoffeeDisplay";
             this.DataGridViewCoffeeDisplay.RowHeadersVisible = false;
-            this.DataGridViewCoffeeDisplay.Size = new System.Drawing.Size(538, 390);
+            this.DataGridViewCoffeeDisplay.RowHeadersWidth = 51;
+            this.DataGridViewCoffeeDisplay.Size = new System.Drawing.Size(717, 480);
             this.DataGridViewCoffeeDisplay.TabIndex = 34;
             this.DataGridViewCoffeeDisplay.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.DataGridViewCoffeeDisplay.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -187,7 +200,7 @@
             this.DataGridViewCoffeeDisplay.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.DataGridViewCoffeeDisplay.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DataGridViewCoffeeDisplay.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.DataGridViewCoffeeDisplay.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridViewCoffeeDisplay.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.DataGridViewCoffeeDisplay.ThemeStyle.HeaderStyle.Height = 4;
             this.DataGridViewCoffeeDisplay.ThemeStyle.ReadOnly = false;
             this.DataGridViewCoffeeDisplay.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
@@ -200,10 +213,10 @@
             // 
             // PriceCheckerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1511, 648);
+            this.ClientSize = new System.Drawing.Size(1924, 798);
             this.Controls.Add(this.DataGridViewCoffeeDisplay);
             this.Controls.Add(this.AddCoffeeButton);
             this.Controls.Add(this.SearchCoffeeTextBox);
@@ -212,10 +225,11 @@
             this.Controls.Add(this.NearbyFormButton);
             this.Controls.Add(this.PriceCheckerFormButton);
             this.Controls.Add(this.RegisterFormButton);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PriceCheckerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PriceCheckerForm";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridViewCoffeeDisplay)).EndInit();
             this.ResumeLayout(false);

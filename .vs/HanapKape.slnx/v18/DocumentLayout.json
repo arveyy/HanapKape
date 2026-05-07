@@ -1,38 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\",
+  "WorkspaceRootPath": "C:\\Users\\Vin\\OneDrive\\Desktop\\hanapkape2.o\\HanapKape\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\hanapkafe\\hanapkapehomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\hanapkapehomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|c:\\users\\vin\\onedrive\\desktop\\hanapkape2.o\\hanapkape\\hanapkafe\\useapproximatelocationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\useapproximatelocationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\hanapkafe\\manual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\manual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|c:\\users\\vin\\onedrive\\desktop\\hanapkape2.o\\hanapkape\\hanapkafe\\useapproximatelocationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\useapproximatelocationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\hanapkafe\\hanapkapehomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\hanapkapehomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\hanapkafe\\manual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|c:\\users\\vin\\onedrive\\desktop\\hanapkape2.o\\hanapkape\\hanapkafe\\manual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\manual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|c:\\users\\pc-2\\desktop\\hanapkape\\hanapkape\\hanapkafe\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|C:\\Users\\Vin\\OneDrive\\Desktop\\hanapkape2.o\\HanapKape\\hanapkafe\\nearbyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\nearbyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|c:\\users\\pc-2\\desktop\\hanapkape\\hanapkape\\hanapkafe\\pricecheckerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\pricecheckerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|c:\\users\\pc-2\\desktop\\hanapkape\\hanapkape\\hanapkafe\\nearbyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\nearbyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|c:\\users\\pc-2\\desktop\\hanapkape\\hanapkape\\hanapkafe\\useapproximatelocationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\useapproximatelocationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|c:\\users\\vin\\onedrive\\desktop\\hanapkape2.o\\hanapkape\\hanapkafe\\manual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{319D554A-3FD6-43B1-BF1F-C184E7E4AD4D}|HanapKafe\\HanapKape.csproj|solutionrelative:hanapkafe\\manual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,105 +30,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "HanapKapeHomeForm.cs",
-              "DocumentMoniker": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\HanapKapeHomeForm.cs",
-              "RelativeDocumentMoniker": "HanapKafe\\HanapKapeHomeForm.cs",
-              "ToolTip": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\HanapKapeHomeForm.cs",
-              "RelativeToolTip": "HanapKafe\\HanapKapeHomeForm.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAlwBkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Manual.cs",
+              "DocumentMoniker": "C:\\Users\\Vin\\OneDrive\\Desktop\\hanapkape2.o\\HanapKape\\HanapKafe\\Manual.cs",
+              "RelativeDocumentMoniker": "HanapKafe\\Manual.cs",
+              "ToolTip": "C:\\Users\\Vin\\OneDrive\\Desktop\\hanapkape2.o\\HanapKape\\HanapKafe\\Manual.cs",
+              "RelativeToolTip": "HanapKafe\\Manual.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T16:24:53.039Z",
+              "WhenOpened": "2026-05-07T09:47:37.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Manual.cs",
-              "DocumentMoniker": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\Manual.cs",
-              "RelativeDocumentMoniker": "HanapKafe\\Manual.cs",
-              "ToolTip": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\Manual.cs",
-              "RelativeToolTip": "HanapKafe\\Manual.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAlwBUAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "NearbyForm.cs",
+              "DocumentMoniker": "C:\\Users\\Vin\\OneDrive\\Desktop\\hanapkape2.o\\HanapKape\\HanapKafe\\NearbyForm.cs",
+              "RelativeDocumentMoniker": "HanapKafe\\NearbyForm.cs",
+              "ToolTip": "C:\\Users\\Vin\\OneDrive\\Desktop\\hanapkape2.o\\HanapKape\\HanapKafe\\NearbyForm.cs",
+              "RelativeToolTip": "HanapKafe\\NearbyForm.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAswBoAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T16:22:15.807Z",
+              "WhenOpened": "2026-05-07T09:05:54.76Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "HanapKapeHomeForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\HanapKapeHomeForm.cs",
-              "RelativeDocumentMoniker": "HanapKafe\\HanapKapeHomeForm.cs",
-              "ToolTip": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\HanapKapeHomeForm.cs [Design]",
-              "RelativeToolTip": "HanapKafe\\HanapKapeHomeForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T21:36:36.378Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Manual.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\Manual.cs",
+              "DocumentMoniker": "C:\\Users\\Vin\\OneDrive\\Desktop\\hanapkape2.o\\HanapKape\\HanapKafe\\Manual.cs",
               "RelativeDocumentMoniker": "HanapKafe\\Manual.cs",
-              "ToolTip": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\Manual.cs [Design]",
+              "ToolTip": "C:\\Users\\Vin\\OneDrive\\Desktop\\hanapkape2.o\\HanapKape\\HanapKafe\\Manual.cs [Design]",
               "RelativeToolTip": "HanapKafe\\Manual.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T21:36:33.564Z",
+              "WhenOpened": "2026-05-07T09:46:41.34Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "HanapKafe\\RegisterForm.cs",
-              "ToolTip": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\RegisterForm.cs [Design]",
-              "RelativeToolTip": "HanapKafe\\RegisterForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T17:46:24.692Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PriceCheckerForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\PriceCheckerForm.cs",
-              "RelativeDocumentMoniker": "HanapKafe\\PriceCheckerForm.cs",
-              "ToolTip": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\PriceCheckerForm.cs [Design]",
-              "RelativeToolTip": "HanapKafe\\PriceCheckerForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T13:11:37.367Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NearbyForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\NearbyForm.cs",
-              "RelativeDocumentMoniker": "HanapKafe\\NearbyForm.cs",
-              "ToolTip": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\NearbyForm.cs [Design]",
-              "RelativeToolTip": "HanapKafe\\NearbyForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T13:28:58.675Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UseApproximateLocationForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\UseApproximateLocationForm.cs",
+              "DocumentIndex": 1,
+              "Title": "UseApproximateLocationForm.cs",
+              "DocumentMoniker": "C:\\Users\\Vin\\OneDrive\\Desktop\\hanapkape2.o\\HanapKape\\HanapKafe\\UseApproximateLocationForm.cs",
               "RelativeDocumentMoniker": "HanapKafe\\UseApproximateLocationForm.cs",
-              "ToolTip": "C:\\Users\\PC-2\\Desktop\\HanapKape\\HanapKape\\HanapKafe\\UseApproximateLocationForm.cs [Design]",
+              "ToolTip": "C:\\Users\\Vin\\OneDrive\\Desktop\\hanapkape2.o\\HanapKape\\HanapKafe\\UseApproximateLocationForm.cs",
+              "RelativeToolTip": "HanapKafe\\UseApproximateLocationForm.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowCwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T09:44:51.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UseApproximateLocationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Vin\\OneDrive\\Desktop\\hanapkape2.o\\HanapKape\\HanapKafe\\UseApproximateLocationForm.cs",
+              "RelativeDocumentMoniker": "HanapKafe\\UseApproximateLocationForm.cs",
+              "ToolTip": "C:\\Users\\Vin\\OneDrive\\Desktop\\hanapkape2.o\\HanapKape\\HanapKafe\\UseApproximateLocationForm.cs [Design]",
               "RelativeToolTip": "HanapKafe\\UseApproximateLocationForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T13:35:20.968Z",
+              "WhenOpened": "2026-05-07T09:44:01.653Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
