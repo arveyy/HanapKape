@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,13 +15,33 @@ namespace HanapKafe
         public UseApproximateLocationForm()
         {
             InitializeComponent();
+            DarkModeToggle.Checked = ThemeSettings.IsDarkMode;
+            ApplyTheme();
         }
 
-        private void RegisterFormButton_Click(object sender, EventArgs e)
+        private void DarkModeToggle_CheckedChanged(object sender, EventArgs e)
         {
-            GoogleMapLinkRegistration register = new GoogleMapLinkRegistration();
+            ThemeSettings.IsDarkMode = DarkModeToggle.Checked;
+            ApplyTheme();
+        }
+
+        private void ApplyTheme()
+        {
+            this.BackColor = ThemeSettings.BackColor;
+            this.ForeColor = ThemeSettings.TextColor;
+            DarkModeLabel.ForeColor = ThemeSettings.TextColor;
+        }
+
+        private void UseApproximateLocationForm_Resize(object sender, EventArgs e)
+        {
+            // Add centering logic here if there are main controls to center
+        }
+
+        private void NearbyFormButton_Click(object sender, EventArgs e)
+        {
+            NearbyForm nearbyBtn = new NearbyForm();
             this.Hide();
-            register.Show();
+            nearbyBtn.Show();
         }
 
         private void PriceCheckerFormButton_Click(object sender, EventArgs e)
@@ -31,11 +51,11 @@ namespace HanapKafe
             priceCheckherbtn.Show();
         }
 
-        private void NearbyFormButton_Click(object sender, EventArgs e)
+        private void RegisterFormButton_Click(object sender, EventArgs e)
         {
-            NearbyForm nearbyBtn = new NearbyForm();
+            GoogleMapLinkRegistration register = new GoogleMapLinkRegistration();
             this.Hide();
-            nearbyBtn.Show();
+            register.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

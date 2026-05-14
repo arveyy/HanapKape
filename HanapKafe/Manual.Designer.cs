@@ -46,6 +46,8 @@
             this.RegisterFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.PriceCheckerFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.NearbyFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
+            this.DarkModeToggle = new Guna.UI2.WinForms.Guna2ToggleSwitch();
+            this.DarkModeLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.HomeLabelLink)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -275,6 +277,7 @@
             // 
             // RegisterFormButton
             // 
+            this.RegisterFormButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.RegisterFormButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.RegisterFormButton.HoverState.ImageSize = new System.Drawing.Size(64, 64);
             this.RegisterFormButton.Image = ((System.Drawing.Image)(resources.GetObject("RegisterFormButton.Image")));
@@ -291,6 +294,7 @@
             // 
             // PriceCheckerFormButton
             // 
+            this.PriceCheckerFormButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PriceCheckerFormButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.PriceCheckerFormButton.HoverState.ImageSize = new System.Drawing.Size(64, 64);
             this.PriceCheckerFormButton.Image = ((System.Drawing.Image)(resources.GetObject("PriceCheckerFormButton.Image")));
@@ -307,6 +311,7 @@
             // 
             // NearbyFormButton
             // 
+            this.NearbyFormButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.NearbyFormButton.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.NearbyFormButton.HoverState.ImageSize = new System.Drawing.Size(64, 64);
             this.NearbyFormButton.Image = ((System.Drawing.Image)(resources.GetObject("NearbyFormButton.Image")));
@@ -321,12 +326,40 @@
             this.NearbyFormButton.TabIndex = 32;
             this.NearbyFormButton.Click += new System.EventHandler(this.NearbyFormButton_Click);
             // 
+            // DarkModeToggle
+            // 
+            this.DarkModeToggle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.DarkModeToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DarkModeToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DarkModeToggle.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.DarkModeToggle.Location = new System.Drawing.Point(1350, 35);
+            this.DarkModeToggle.Name = "DarkModeToggle";
+            this.DarkModeToggle.Size = new System.Drawing.Size(50, 25);
+            this.DarkModeToggle.TabIndex = 35;
+            this.DarkModeToggle.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DarkModeToggle.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DarkModeToggle.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.DarkModeToggle.CheckedChanged += new System.EventHandler(this.DarkModeToggle_CheckedChanged);
+            // 
+            // DarkModeLabel
+            // 
+            this.DarkModeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.DarkModeLabel.AutoSize = true;
+            this.DarkModeLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.DarkModeLabel.Location = new System.Drawing.Point(1250, 38);
+            this.DarkModeLabel.Name = "DarkModeLabel";
+            this.DarkModeLabel.Size = new System.Drawing.Size(86, 20);
+            this.DarkModeLabel.TabIndex = 36;
+            this.DarkModeLabel.Text = "Dark Mode";
+            // 
             // ManualRegistrationForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1924, 798);
+            this.Controls.Add(this.DarkModeLabel);
+            this.Controls.Add(this.DarkModeToggle);
             this.Controls.Add(this.NearbyFormButton);
             this.Controls.Add(this.PriceCheckerFormButton);
             this.Controls.Add(this.RegisterFormButton);
@@ -349,6 +382,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Manual";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Resize += new System.EventHandler(this.ManualRegistrationForm_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.HomeLabelLink)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -374,5 +408,7 @@
         private Guna.UI2.WinForms.Guna2ImageButton RegisterFormButton;
         private Guna.UI2.WinForms.Guna2ImageButton PriceCheckerFormButton;
         private Guna.UI2.WinForms.Guna2ImageButton NearbyFormButton;
+        private Guna.UI2.WinForms.Guna2ToggleSwitch DarkModeToggle;
+        private System.Windows.Forms.Label DarkModeLabel;
     }
 }

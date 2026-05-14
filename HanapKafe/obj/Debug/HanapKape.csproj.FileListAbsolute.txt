@@ -55,3 +55,10 @@ C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\GMap.NE
 C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\GMap.NET.WindowsForms.dll
 C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\Guna.UI2.dll
 C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.Up2Date
+C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
