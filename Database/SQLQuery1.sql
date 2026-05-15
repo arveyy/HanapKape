@@ -1,0 +1,8 @@
+	USE HanapKapeDB;
+	GO
+
+	CREATE TABLE CoffeeTable (
+		CoffeeID INT PRIMARY KEY IDENTITY(1,1),
+		CoffeeName NVARCHAR(100) NOT NULL,
+		Price DECIMAL(18, 2) NOT NULL
+	);

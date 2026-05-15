@@ -17,7 +17,6 @@ namespace HanapKafe
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NearbyForm));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.SignOutButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.NearbyFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.PriceCheckerFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.RegisterFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -31,6 +30,7 @@ namespace HanapKafe
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.DarkModeToggle = new Guna.UI2.WinForms.Guna2ToggleSwitch();
             this.DarkModeLabel = new System.Windows.Forms.Label();
+            this.SearchNearbyTextBox = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.webViewMap)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -46,18 +46,6 @@ namespace HanapKafe
             this.pictureBox2.TabIndex = 32;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // SignOutButton
-            // 
-            this.SignOutButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.SignOutButton.Image = ((System.Drawing.Image)(resources.GetObject("SignOutButton.Image")));
-            this.SignOutButton.ImageOffset = new System.Drawing.Point(0, 0);
-            this.SignOutButton.ImageRotate = 0F;
-            this.SignOutButton.ImageSize = new System.Drawing.Size(64, 40);
-            this.SignOutButton.Location = new System.Drawing.Point(1815, 15);
-            this.SignOutButton.Name = "SignOutButton";
-            this.SignOutButton.Size = new System.Drawing.Size(88, 64);
-            this.SignOutButton.TabIndex = 36;
             // 
             // NearbyFormButton
             // 
@@ -98,32 +86,6 @@ namespace HanapKafe
             this.RegisterFormButton.TabIndex = 33;
             this.RegisterFormButton.Click += new System.EventHandler(this.RegisterFormButton_Click);
             // 
-            // DarkModeToggle
-            // 
-            this.DarkModeToggle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.DarkModeToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DarkModeToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.DarkModeToggle.CheckedState.InnerColor = System.Drawing.Color.White;
-            this.DarkModeToggle.Location = new System.Drawing.Point(1450, 35);
-            this.DarkModeToggle.Name = "DarkModeToggle";
-            this.DarkModeToggle.Size = new System.Drawing.Size(50, 25);
-            this.DarkModeToggle.TabIndex = 49;
-            this.DarkModeToggle.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DarkModeToggle.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.DarkModeToggle.UncheckedState.InnerColor = System.Drawing.Color.White;
-            this.DarkModeToggle.CheckedChanged += new System.EventHandler(this.DarkModeToggle_CheckedChanged);
-            // 
-            // DarkModeLabel
-            // 
-            this.DarkModeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.DarkModeLabel.AutoSize = true;
-            this.DarkModeLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.DarkModeLabel.Location = new System.Drawing.Point(1350, 38);
-            this.DarkModeLabel.Name = "DarkModeLabel";
-            this.DarkModeLabel.Size = new System.Drawing.Size(86, 20);
-            this.DarkModeLabel.TabIndex = 50;
-            this.DarkModeLabel.Text = "Dark Mode";
-            // 
             // webViewMap
             // 
             this.webViewMap.AllowExternalDrop = true;
@@ -138,9 +100,10 @@ namespace HanapKafe
             // OpenNowButton
             // 
             this.OpenNowButton.BorderRadius = 15;
-            this.OpenNowButton.FillColor = System.Drawing.Color.Silver;
+            this.OpenNowButton.BorderThickness = 1;
+            this.OpenNowButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(64)))), ((int)(((byte)(14)))));
             this.OpenNowButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.OpenNowButton.ForeColor = System.Drawing.Color.Black;
+            this.OpenNowButton.ForeColor = System.Drawing.Color.White;
             this.OpenNowButton.Location = new System.Drawing.Point(16, 34);
             this.OpenNowButton.Name = "OpenNowButton";
             this.OpenNowButton.Size = new System.Drawing.Size(141, 45);
@@ -199,10 +162,11 @@ namespace HanapKafe
             // FavoritesFilterButton
             // 
             this.FavoritesFilterButton.BorderRadius = 15;
+            this.FavoritesFilterButton.BorderThickness = 1;
             this.FavoritesFilterButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.ToogleButton;
-            this.FavoritesFilterButton.FillColor = System.Drawing.Color.Silver;
+            this.FavoritesFilterButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(64)))), ((int)(((byte)(14)))));
             this.FavoritesFilterButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
-            this.FavoritesFilterButton.ForeColor = System.Drawing.Color.Black;
+            this.FavoritesFilterButton.ForeColor = System.Drawing.Color.White;
             this.FavoritesFilterButton.Location = new System.Drawing.Point(584, 34);
             this.FavoritesFilterButton.Name = "FavoritesFilterButton";
             this.FavoritesFilterButton.Size = new System.Drawing.Size(120, 45);
@@ -240,26 +204,70 @@ namespace HanapKafe
             this.groupBox1.TabIndex = 48;
             this.groupBox1.TabStop = false;
             // 
+            // DarkModeToggle
+            // 
+            this.DarkModeToggle.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.DarkModeToggle.CheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DarkModeToggle.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.DarkModeToggle.CheckedState.InnerColor = System.Drawing.Color.White;
+            this.DarkModeToggle.Location = new System.Drawing.Point(1450, 35);
+            this.DarkModeToggle.Name = "DarkModeToggle";
+            this.DarkModeToggle.Size = new System.Drawing.Size(50, 25);
+            this.DarkModeToggle.TabIndex = 49;
+            this.DarkModeToggle.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DarkModeToggle.UncheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.DarkModeToggle.UncheckedState.InnerColor = System.Drawing.Color.White;
+            this.DarkModeToggle.CheckedChanged += new System.EventHandler(this.DarkModeToggle_CheckedChanged);
+            // 
+            // DarkModeLabel
+            // 
+            this.DarkModeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.DarkModeLabel.AutoSize = true;
+            this.DarkModeLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.DarkModeLabel.Location = new System.Drawing.Point(1350, 38);
+            this.DarkModeLabel.Name = "DarkModeLabel";
+            this.DarkModeLabel.Size = new System.Drawing.Size(86, 20);
+            this.DarkModeLabel.TabIndex = 50;
+            this.DarkModeLabel.Text = "Dark Mode";
+            // 
+            // SearchNearbyTextBox
+            // 
+            this.SearchNearbyTextBox.BorderRadius = 15;
+            this.SearchNearbyTextBox.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.SearchNearbyTextBox.DefaultText = "";
+            this.SearchNearbyTextBox.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.SearchNearbyTextBox.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.SearchNearbyTextBox.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.SearchNearbyTextBox.Location = new System.Drawing.Point(613, 22);
+            this.SearchNearbyTextBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.SearchNearbyTextBox.Name = "SearchNearbyTextBox";
+            this.SearchNearbyTextBox.PlaceholderText = "Search by Name, Brand, Address or Source...";
+            this.SearchNearbyTextBox.SelectedText = "";
+            this.SearchNearbyTextBox.Size = new System.Drawing.Size(400, 40);
+            this.SearchNearbyTextBox.TabIndex = 51;
+            this.SearchNearbyTextBox.TextChanged += new System.EventHandler(this.SearchNearbyTextBox_TextChanged);
+            // 
             // NearbyForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1924, 798);
+            this.Controls.Add(this.SearchNearbyTextBox);
             this.Controls.Add(this.DarkModeLabel);
             this.Controls.Add(this.DarkModeToggle);
             this.Controls.Add(this.ShopListFlowPanel);
             this.Controls.Add(this.ShopCountLabel);
             this.Controls.Add(this.webViewMap);
-            this.Controls.Add(this.SignOutButton);
             this.Controls.Add(this.NearbyFormButton);
             this.Controls.Add(this.PriceCheckerFormButton);
             this.Controls.Add(this.RegisterFormButton);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "NearbyForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "NearbyForm";
+            this.Text = "HanapKape";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Resize += new System.EventHandler(this.NearbyForm_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -271,7 +279,6 @@ namespace HanapKafe
         }
 
         private System.Windows.Forms.PictureBox pictureBox2;
-        private Guna.UI2.WinForms.Guna2ImageButton SignOutButton;
         private Guna.UI2.WinForms.Guna2ImageButton NearbyFormButton;
         private Guna.UI2.WinForms.Guna2ImageButton PriceCheckerFormButton;
         private Guna.UI2.WinForms.Guna2ImageButton RegisterFormButton;
@@ -285,5 +292,6 @@ namespace HanapKafe
         private System.Windows.Forms.GroupBox groupBox1;
         private Guna.UI2.WinForms.Guna2ToggleSwitch DarkModeToggle;
         private System.Windows.Forms.Label DarkModeLabel;
+        private Guna.UI2.WinForms.Guna2TextBox SearchNearbyTextBox;
     }
 }

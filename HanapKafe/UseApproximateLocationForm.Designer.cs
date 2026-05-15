@@ -17,7 +17,6 @@ namespace HanapKafe
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UseApproximateLocationForm));
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.SignOutButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.NearbyFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.PriceCheckerFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
             this.RegisterFormButton = new Guna.UI2.WinForms.Guna2ImageButton();
@@ -37,15 +36,6 @@ namespace HanapKafe
             this.pictureBox2.TabIndex = 33;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // SignOutButton
-            // 
-            this.SignOutButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.SignOutButton.ImageSize = new System.Drawing.Size(64, 40);
-            this.SignOutButton.Location = new System.Drawing.Point(1815, 15);
-            this.SignOutButton.Name = "SignOutButton";
-            this.SignOutButton.Size = new System.Drawing.Size(88, 64);
-            this.SignOutButton.TabIndex = 40;
             // 
             // NearbyFormButton
             // 
@@ -111,7 +101,6 @@ namespace HanapKafe
             this.ClientSize = new System.Drawing.Size(1924, 798);
             this.Controls.Add(this.DarkModeLabel);
             this.Controls.Add(this.DarkModeToggle);
-            this.Controls.Add(this.SignOutButton);
             this.Controls.Add(this.NearbyFormButton);
             this.Controls.Add(this.PriceCheckerFormButton);
             this.Controls.Add(this.RegisterFormButton);
@@ -127,7 +116,6 @@ namespace HanapKafe
         }
 
         private System.Windows.Forms.PictureBox pictureBox2;
-        private Guna.UI2.WinForms.Guna2ImageButton SignOutButton;
         private Guna.UI2.WinForms.Guna2ImageButton NearbyFormButton;
         private Guna.UI2.WinForms.Guna2ImageButton PriceCheckerFormButton;
         private Guna.UI2.WinForms.Guna2ImageButton RegisterFormButton;

@@ -41,7 +41,6 @@
             maxZoom: 20
         });
 
-        // Start with light tiles
         lightTiles.addTo(map);
 
         function setMapTheme(theme) {
@@ -54,7 +53,6 @@
             }
         }
 
-        // Define Icons
         const userIcon = L.icon({
             iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png',
             shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
@@ -81,9 +79,9 @@
             shopMarkers = [];
         }
 
-        function addShopMarker(lat, lng, name, address) {
+        function addShopMarker(lat, lng, name, popupContent) {
             const marker = L.marker([lat, lng], { icon: shopIcon }).addTo(map);
-            marker.bindPopup("<b>" + name + "</b><br>" + address);
+            marker.bindPopup(popupContent);
             shopMarkers.push(marker);
         }
 
@@ -99,13 +97,6 @@
 
         map.on('locationerror', function(e) {
             console.log("Location error: " + e.message);
-            const center = map.getCenter();
-            window.chrome.webview.postMessage({ type: "MAP_MOVE", lat: center.lat, lng: center.lng });
-        });
-
-        map.on('moveend', function() {
-            const center = map.getCenter();
-            window.chrome.webview.postMessage({ type: "MAP_MOVE", lat: center.lat, lng: center.lng });
         });
 
         window.onload = function() {

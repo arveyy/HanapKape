@@ -62,3 +62,57 @@ C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\Microso
 C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
 C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.Core.xml
 C:\Users\Vin\OneDrive\Desktop\hanapkape2.o\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.AssemblyReference.cache
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKafe.HanapKapeHome.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKafe.ManualRegistrationForm.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKafe.NearbyForm.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKafe.PriceCheckerForm.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKafe.GoogleMapLinkRegistration.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKafe.Properties.Resources.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKafe.UseApproximateLocationForm.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.GenerateResource.cache
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.CoreCompileInputs.cache
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKafe.exe
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKafe.pdb
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\bin\Debug\HanapKafe.exe.config
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\bin\Debug\HanapKafe.exe
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\bin\Debug\GMap.NET.Core.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\bin\Debug\Guna.UI2.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.Up2Date
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\bin\Debug\HanapKafe.pdb
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4\HanapKape\HanapKafe\obj\Debug\HanapKafe.AddCoffeeForm.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\bin\Debug\HanapKafe.exe.config
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\bin\Debug\HanapKafe.exe
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\bin\Debug\HanapKafe.pdb
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\bin\Debug\GMap.NET.Core.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\bin\Debug\Guna.UI2.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.AssemblyReference.cache
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKafe.AddCoffeeForm.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKafe.HanapKapeHome.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKafe.ManualRegistrationForm.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKafe.NearbyForm.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKafe.PriceCheckerForm.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKafe.GoogleMapLinkRegistration.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKafe.Properties.Resources.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKafe.UseApproximateLocationForm.resources
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.GenerateResource.cache
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.CoreCompileInputs.cache
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKape.csproj.Up2Date
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKafe.exe
+C:\Users\Vin\OneDrive\Desktop\HanapKape V4 - Copy\HanapKape\HanapKafe\obj\Debug\HanapKafe.pdb
